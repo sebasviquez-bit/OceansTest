@@ -1,0 +1,322 @@
+<html>
+<head>
+<title>output.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #6d9cbe;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+output.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;robot </span><span class="s1">generator</span><span class="s2">=&quot;Robot 3.2.1 (Python 3.8.5 on darwin)&quot; </span><span class="s1">generated</span><span class="s2">=&quot;20200729 22:09:51.191&quot; </span><span class="s1">rpa</span><span class="s2">=&quot;false&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;suite </span><span class="s1">id</span><span class="s2">=&quot;s1&quot; </span><span class="s1">name</span><span class="s2">=&quot;Form&quot; </span><span class="s1">source</span><span class="s2">=&quot;/Users/user/PycharmProjects/OceansTest/PracticeForm/Form.robot&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Set Selenium Speed&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot; </span><span class="s1">type</span><span class="s2">=&quot;setup&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Sets the delay that is waited after each Selenium command.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">0.2s</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:51.372&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:09:51.373&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;test </span><span class="s1">id</span><span class="s2">=&quot;s1-t1&quot; </span><span class="s1">name</span><span class="s2">=&quot;PracticeForm&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;OpenHomepage&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Open Browser&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Opens a new browser instance to the optional ``url``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${URL}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${browser}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:09:51.374&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Opening browser 'chrome' to base url 'https://demoqa.com/automation-practice-form'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:51.374&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:09:59.799&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Title Should Be&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Verifies that the current page title equals ``title``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">ToolsQA</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:00.009&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Page title is 'ToolsQA'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:59.799&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:00.009&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:51.373&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:00.010&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Maximize Browser Window&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Maximizes current browser window.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:00.010&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:00.369&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter FirstName&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${FirstName}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">Sebastian</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:00.370&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'Sebastian' into text field 'id: firstName'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:00.370&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:01.117&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:00.370&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:01.117&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter LastName&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${LastName}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">Viquez</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:01.118&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'Viquez' into text field 'id: lastName'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:01.118&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:01.811&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:01.118&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:01.811&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter Email&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${Email}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">sebas.viquez@gmail.com</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:01.812&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'sebas.viquez@gmail.com' into text field 'css: #userEmail'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:01.812&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:02.522&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:01.811&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:02.522&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Select Gender&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css:#genterWrapper </span><span class="s4">&amp;gt; </span><span class="s3">div.col-md-9.col-sm-12 </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(1) </span><span class="s4">&amp;gt; </span><span class="s3">label</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:02.524&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css:#genterWrapper </span><span class="s4">&amp;gt; </span><span class="s3">div.col-md-9.col-sm-12 </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(1) </span><span class="s4">&amp;gt; </span><span class="s3">label'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:02.523&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:02.985&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:02.523&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:02.986&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter Mobile&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${Mobile}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">5087118400</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:02.987&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text '5087118400' into text field 'css: #userNumber'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:02.986&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:03.698&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:02.986&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:03.698&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter DateOfBirth&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${DateOfBirth}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:03.699&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #dateOfBirthInput'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:03.699&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:04.212&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-dropdown-container.react-datepicker__month-dropdown-container--select </span><span class="s4">&amp;gt; </span><span class="s3">select </span><span class="s4">&amp;gt; </span><span class="s3">option:nth-child(10)</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:04.213&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-dropdown-container.react-datepicker__month-dropdown-container--select </span><span class="s4">&amp;gt; </span><span class="s3">select </span><span class="s4">&amp;gt; </span><span class="s3">option:nth-child(10)'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:04.212&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:04.679&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__year-dropdown-container.react-datepicker__year-dropdown-container--select </span><span class="s4">&amp;gt; </span><span class="s3">select </span><span class="s4">&amp;gt; </span><span class="s3">option:nth-child(87)</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:04.679&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__header__dropdown.react-datepicker__header__dropdown--select </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__year-dropdown-container.react-datepicker__year-dropdown-container--select </span><span class="s4">&amp;gt; </span><span class="s3">select </span><span class="s4">&amp;gt; </span><span class="s3">option:nth-child(87)'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:04.679&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:05.134&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(4) </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__day.react-datepicker__day--020</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:05.134&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #dateOfBirth </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__tab-loop </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker-popper </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month-container </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__month </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(4) </span><span class="s4">&amp;gt; </span><span class="s3">div.react-datepicker__day.react-datepicker__day--020'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:05.134&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:05.599&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:03.698&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:05.599&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Select Hobbies&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #hobbiesWrapper </span><span class="s4">&amp;gt; </span><span class="s3">div.col-md-9.col-sm-12 </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(1) </span><span class="s4">&amp;gt; </span><span class="s3">label</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:05.600&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #hobbiesWrapper </span><span class="s4">&amp;gt; </span><span class="s3">div.col-md-9.col-sm-12 </span><span class="s4">&amp;gt; </span><span class="s3">div:nth-child(1) </span><span class="s4">&amp;gt; </span><span class="s3">label'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:05.600&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:06.053&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:05.600&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:06.053&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Upload Picture&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Wait Until Page Contains Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Waits until the element ``locator`` appears on the current page.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${ChooseFile}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:06.054&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:06.268&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Choose File&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Inputs the ``file_path`` into the file input field ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${ChooseFile}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">/Users/user/PycharmProjects/OceansTest/PracticeForm/Product1.jpg</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:06.269&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Sending /Users/user/PycharmProjects/OceansTest/PracticeForm/Product1.jpg to browser.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:06.268&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:06.711&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:06.053&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:06.711&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Enter Address&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">${Address}</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">Heredia</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:06.712&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'Heredia' into text field 'css: #currentAddress'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:06.712&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:07.399&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:06.712&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:07.399&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Select State&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Scroll Element Into View&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Scrolls the element identified by ``locator`` into view.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id:submit</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:07.400&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:08.083&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Wait Until Page Contains Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Waits until the element ``locator`` appears on the current page.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css:#state </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:08.083&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:08.297&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css:#state </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:08.297&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css:#state </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:08.297&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:08.756&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id: react-select-3-input</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">u</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:08.757&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'u' into text field 'id: react-select-3-input'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:08.756&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:09.435&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Press Keys&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Simulates the user pressing key(s) to an element or on the active browser.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id: react-select-3-input</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">ENTER</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:09.435&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Sending key(s) ('ENTER',) to id: react-select-3-input element.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:10.111&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Pressing special key ENTER to element.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:10.111&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Releasing special key ENTER.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:09.435&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:10.335&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:07.400&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:10.336&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Select City&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Scroll Element Into View&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Scrolls the element identified by ``locator`` into view.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id:submit</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:10.336&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:11.007&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Wait Until Page Contains Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Waits until the element ``locator`` appears on the current page.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #city </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6 </span><span class="s4">&amp;gt; </span><span class="s3">div</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:11.007&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:11.220&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">css: #city </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6 </span><span class="s4">&amp;gt; </span><span class="s3">div</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:11.221&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'css: #city </span><span class="s4">&amp;gt; </span><span class="s3">div </span><span class="s4">&amp;gt; </span><span class="s3">div.css-1wy0on6 </span><span class="s4">&amp;gt; </span><span class="s3">div'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:11.220&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:11.671&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Input Text&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Types the given ``text`` into the text field identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id: react-select-4-input</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">a</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:11.671&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Typing text 'a' into text field 'id: react-select-4-input'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:11.671&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:12.339&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Press Keys&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Simulates the user pressing key(s) to an element or on the active browser.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">react-select-4-input</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">ENTER</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:12.339&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Sending key(s) ('ENTER',) to react-select-4-input element.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:13.019&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Pressing special key ENTER to element.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:13.019&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Releasing special key ENTER.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:12.339&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.236&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:10.336&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.236&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Submit&quot; </span><span class="s1">library</span><span class="s2">=&quot;Keywords&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Click Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Click the element identified by ``locator``.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id: submit</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;msg </span><span class="s1">timestamp</span><span class="s2">=&quot;20200729 22:10:13.237&quot; </span><span class="s1">level</span><span class="s2">=&quot;INFO&quot;</span><span class="s0">&gt;</span><span class="s3">Clicking element 'id: submit'.</span><span class="s0">&lt;/msg&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:13.237&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.706&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Wait Until Page Contains Element&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Waits until the element ``locator`` appears on the current page.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;arguments&gt;</span>
+<span class="s0">&lt;arg&gt;</span><span class="s3">id: example-modal-sizes-title-lg</span><span class="s0">&lt;/arg&gt;</span>
+<span class="s0">&lt;/arguments&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:13.706&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.927&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:13.237&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.927&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:51.373&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:13.928&quot; </span><span class="s1">critical</span><span class="s2">=&quot;yes&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/test&gt;</span>
+<span class="s0">&lt;kw </span><span class="s1">name</span><span class="s2">=&quot;Close Browser&quot; </span><span class="s1">library</span><span class="s2">=&quot;SeleniumLibrary&quot; </span><span class="s1">type</span><span class="s2">=&quot;teardown&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;doc&gt;</span><span class="s3">Closes the current browser.</span><span class="s0">&lt;/doc&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:10:13.929&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:14.198&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/kw&gt;</span>
+<span class="s0">&lt;status </span><span class="s1">status</span><span class="s2">=&quot;PASS&quot; </span><span class="s1">starttime</span><span class="s2">=&quot;20200729 22:09:51.192&quot; </span><span class="s1">endtime</span><span class="s2">=&quot;20200729 22:10:14.198&quot;</span><span class="s0">&gt;&lt;/status&gt;</span>
+<span class="s0">&lt;/suite&gt;</span>
+<span class="s0">&lt;statistics&gt;</span>
+<span class="s0">&lt;total&gt;</span>
+<span class="s0">&lt;stat </span><span class="s1">pass</span><span class="s2">=&quot;1&quot; </span><span class="s1">fail</span><span class="s2">=&quot;0&quot;</span><span class="s0">&gt;</span><span class="s3">Critical Tests</span><span class="s0">&lt;/stat&gt;</span>
+<span class="s0">&lt;stat </span><span class="s1">pass</span><span class="s2">=&quot;1&quot; </span><span class="s1">fail</span><span class="s2">=&quot;0&quot;</span><span class="s0">&gt;</span><span class="s3">All Tests</span><span class="s0">&lt;/stat&gt;</span>
+<span class="s0">&lt;/total&gt;</span>
+<span class="s0">&lt;tag&gt;</span>
+<span class="s0">&lt;/tag&gt;</span>
+<span class="s0">&lt;suite&gt;</span>
+<span class="s0">&lt;stat </span><span class="s1">pass</span><span class="s2">=&quot;1&quot; </span><span class="s1">fail</span><span class="s2">=&quot;0&quot; </span><span class="s1">id</span><span class="s2">=&quot;s1&quot; </span><span class="s1">name</span><span class="s2">=&quot;Form&quot;</span><span class="s0">&gt;</span><span class="s3">Form</span><span class="s0">&lt;/stat&gt;</span>
+<span class="s0">&lt;/suite&gt;</span>
+<span class="s0">&lt;/statistics&gt;</span>
+<span class="s0">&lt;errors&gt;</span>
+<span class="s0">&lt;/errors&gt;</span>
+<span class="s0">&lt;/robot&gt;</span>
+</pre>
+</body>
+</html>
