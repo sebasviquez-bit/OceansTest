@@ -9,10 +9,15 @@ Suite Teardown  Close Browser
 Buttons Click Actions
     Go to Homepage
     Maximize Browser Window
+    set selenium implicit wait  3s
     Double Click button
     Right Click button
     Single Click button
+    log to console  You are becoming an expert in RobotFramework
 
+
+     ${implicitTime}=  get selenium implicit wait
+     log to console  ${implicitTime}
 
 *** Keywords ***
 Go to Homepage
@@ -29,7 +34,7 @@ Right Click button
 
 Single Click button
     Click Element  ${SingleClick}
-    Page Should contain  You have done a dynamic click
+    Wait until page contains  You have done a dynamic click
 
 
 *** Variables ***
